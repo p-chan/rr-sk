@@ -1,0 +1,10 @@
+{
+  "name": "rr-sk",
+  "version": "1.0.0",
+  "description": "Riot-Rollup-Sterterkit",
+  "license": "MIT",
+  "author": "P-Chan <hello@0x50.io> (https://0x50.io/)",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}

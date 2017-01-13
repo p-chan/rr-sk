@@ -4,7 +4,20 @@
   "description": "Riot-Rollup-Sterterkit",
   "license": "MIT",
   "author": "P-Chan <hello@0x50.io> (https://0x50.io/)",
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {}
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "dependencies": {
+    "riot": "3.0.7"
+  },
+  "devDependencies": {
+    "rollup": "0.41.1",
+    "rollup-plugin-buble": "0.15.0",
+    "rollup-plugin-commonjs": "7.0.0",
+    "rollup-plugin-node-resolve": "2.0.0",
+    "rollup-plugin-riot": "1.1.0",
+    "rollup-plugin-serve": "0.1.0",
+    "rollup-watch": "3.2.2"
+  }
 }

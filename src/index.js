@@ -3,20 +3,14 @@ import riot from 'riot';
 import route from 'riot-route';
 
 // import tags
-// import './app.tag';
-
 import './components/app-header.tag';
 import './components/app-navigation.tag';
 
 import './pages/index.tag';
 import './pages/about.tag';
 import './pages/links.tag';
-import './pages/not-found.tag';
 
-// mount app
-// riot.mount('app');
-
-// routing
+// route and mount
 route('/', () => {
   console.log('change to index');
   riot.mount('#app', 'index');
@@ -32,10 +26,6 @@ route('/links', () => {
   riot.mount('#app', 'links');
 });
 
-// route('/*', () => {
-//   console.log('change to not-found');
-//   riot.mount('#app', 'not-found');
-// });
-
+// start
 route.base('/');
 route.start(true);

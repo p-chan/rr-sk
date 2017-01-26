@@ -20,7 +20,8 @@ export default {
       }
     }),
     serve({
-      port: 3000
+      port: 3000,
+      historyApiFallback: true
     })
   ],
   format: 'iife'

@@ -9,7 +9,8 @@
     "watch": "rollup -c -w"
   },
   "dependencies": {
-    "riot": "3.0.7"
+    "riot": "3.0.7",
+    "riot-route": "3.0.2"
   },
   "devDependencies": {
     "rollup": "0.41.4",

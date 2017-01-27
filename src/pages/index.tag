@@ -1,5 +1,5 @@
 <index>
-  <app-header></app-header>
+  <app-header title="Index"></app-header>
   <p>Hello from Index</p>
 
   <script>

@@ -1,5 +1,5 @@
 <app-header>
-  <h1>Riot</h1>
+  <h1>{ opts.title }</h1>
 
   <app-navigation>
 

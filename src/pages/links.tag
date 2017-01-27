@@ -1,5 +1,5 @@
 <links>
-  <app-header></app-header>
+  <app-header title="Links"></app-header>
   <p>Hello from Links</p>
 
   <script>

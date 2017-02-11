@@ -9,11 +9,11 @@
     "watch": "rollup -c -w"
   },
   "dependencies": {
-    "riot": "3.0.7",
-    "riot-route": "3.0.2"
+    "riot": "3.2.1",
+    "riot-route": "3.1.0"
   },
   "devDependencies": {
-    "postcss": "5.2.11",
+    "postcss": "5.2.12",
     "postcss-cssnext": "2.9.0",
     "rollup": "0.41.4",
     "rollup-plugin-buble": "0.15.0",
